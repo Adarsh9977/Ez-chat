@@ -18,13 +18,13 @@ export default function Home() {
 
     if(workspaceId){
       router.replace(`/workspace/${workspaceId}`)
-    }else if(!open){
-      setOpen(true);
-    }
+        }else if(!open){
+          setOpen(true);
+        }
   }, [workspaceId,isLoading, open, setOpen, router])
 
   return (
-        <UserButton/>
+    <UserButton/>
   );
 }
   

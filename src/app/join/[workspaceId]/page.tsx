@@ -81,7 +81,7 @@ const JoinPage = () => {
                 variant="outline"
                 asChild
                 >
-                <Link href="/">
+                <Link href="/" prefetch={true}>
                     Back to home
                 </Link> 
                 </Button>
