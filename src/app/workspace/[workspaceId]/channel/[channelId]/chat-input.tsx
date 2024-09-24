@@ -54,7 +54,6 @@ export const ChatInput = ({ placeholder }: ChatInputprops) =>{
 
             if(image){
                 const url = await generateUploadUrl({}, { throwError: true});
-                
 
                 if(!url){
                     throw new Error("Url not found");
@@ -75,7 +74,6 @@ export const ChatInput = ({ placeholder }: ChatInputprops) =>{
                 const { storageId } = await result.json();
 
                 values.image = storageId;
-
             }
 
             createMessage(values ,{ throwError: true });

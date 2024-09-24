@@ -176,7 +176,7 @@ const Editor = ({
                                     <XIcon className="size-3.5"/>
                                 </button>
                             </Hint>
-                            <Image 
+                            <Image
                             src={URL.createObjectURL(image)}
                             alt="Uploaded"
                             fill

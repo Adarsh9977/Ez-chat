@@ -2,12 +2,14 @@
   "name": "ez-chat",
   "version": "0.1.0",
   "private": true,
+  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  
   "dependencies": {
     "@auth/core": "^0.34.2",
     "@convex-dev/auth": "^0.0.61",
