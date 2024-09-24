@@ -16,7 +16,7 @@ const nextConfig = {
         remotePatterns: [
             {
             protocol: 'https',
-            hostname: 'gregarious-dragon-958.convex.cloud',
+            hostname: 'energized-crocodile-497.convex.cloud',
             port: '',
             pathname: '/api/storage/**',
             },
